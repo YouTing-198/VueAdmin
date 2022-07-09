@@ -28,13 +28,11 @@ export default {
     async getUserInfo({ commit }) {
       const response = await getUserInfo()
       commit('SET_USER_INFO', response)
-      console.log('user', response)
       return response
     },
     async getNav({ commit }) {
       const response = await getNav()
       commit('SET_NAV', response)
-      console.log('nav', response)
       return response
     },
     async logout({ commit }) {
@@ -42,7 +40,7 @@ export default {
       commit('SET_TOKEN', '')
       commit('SET_USER_INFO', '')
       commit('SET_NAV')
-      console.log(response)
+      return response
     }
   }
 }

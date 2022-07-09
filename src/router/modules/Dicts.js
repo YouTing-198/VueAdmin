@@ -1,11 +1,11 @@
 import Layout from '../../layout'
 export default {
   path: '/tool',
-  name: 'sys:dicts:list',
+  name: 'sys:dict:list',
   redirect: '/tool/dicts',
   meta: {
     title: '系统工具',
-    icon: 'avatar'
+    icon: 'el-icon-s-operation'
   },
   component: Layout,
   children: [
@@ -13,8 +13,8 @@ export default {
       path: '/tool/dicts',
       component: () => import('../../views/dicts'),
       meta: {
-        title: '数字字典',
-        icon: 'el-icon-s-custom'
+        title: '字典管理',
+        icon: 'el-icon-s-order'
       }
     }
   ]

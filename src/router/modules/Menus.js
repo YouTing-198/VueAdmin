@@ -1,11 +1,11 @@
 import Layout from '../../layout'
 export default {
   path: '/sys',
-  name: 'sys:menus:list',
-  redirect: '/sys/menus',
+  name: 'sys:menu:list',
+  redirect: '/sys/users',
   meta: {
     title: '系统管理',
-    icon: 'avatar'
+    icon: 'el-icon-s-operation'
   },
   component: Layout,
   children: [
@@ -14,7 +14,7 @@ export default {
       component: () => import('../../views/menus'),
       meta: {
         title: '菜单管理',
-        icon: 'el-icon-s-custom'
+        icon: 'el-icon-menu'
       }
     }
   ]

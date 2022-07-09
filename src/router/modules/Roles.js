@@ -1,11 +1,11 @@
 import Layout from '../../layout'
 export default {
   path: '/sys',
-  name: 'sys:roles:list',
-  redirect: '/sys/roles',
+  name: 'sys:role:list',
+  redirect: '/sys/users',
   meta: {
     title: '系统管理',
-    icon: 'avatar'
+    icon: 'el-icon-s-operation'
   },
   component: Layout,
   children: [
@@ -14,7 +14,7 @@ export default {
       component: () => import('../../views/roles'),
       meta: {
         title: '角色管理',
-        icon: 'el-icon-s-custom'
+        icon: 'el-icon-rank'
       }
     }
   ]
