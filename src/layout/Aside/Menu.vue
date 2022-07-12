@@ -22,7 +22,5 @@ const menuList = computed(() => {
   const routes = filterRouters(router.getRoutes())
   return filterMenuData(generateMenus(routes))
 })
-
-console.log(menuList)
 </script>
 <style scoped lang="scss"></style>
