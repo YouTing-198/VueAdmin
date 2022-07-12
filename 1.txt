@@ -1,0 +1,6 @@
+src/layout/Header/index.vue   |  37 ++++++++++-----
+ src/layout/index.vue          |   6 ++-
+ src/main.js                   |   1 +
+ src/store/getters.js          |   3 +-
+ src/store/index.js            |   5 +-
+ src/store/modules/tagsview.js |  33 +++++++++++++

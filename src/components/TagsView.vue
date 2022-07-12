@@ -20,4 +20,33 @@
   </div>
 </template>
 <script setup></script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+// .tags-view-container {
+//   ul {
+//     height: 100%;
+//     display: flex;
+//     list-style: none;
+//     border-bottom: 1px solid #eee;
+//     padding: 0;
+//     margin: 0;
+//     li {
+//       border-right: 1px solid #eee;
+//       padding: 10px 20px;
+//       font-size: 12px;
+//       &:hover {
+//         background-color: red;
+//       }
+//       &:after {
+//         content: '';
+//         display: flex;
+//         padding: 10px 20px;
+//         border: 1px solid red;
+//       }
+//       a {
+//         color: #333;
+//         text-decoration: none;
+//       }
+//     }
+//   }
+// }
+</style>
